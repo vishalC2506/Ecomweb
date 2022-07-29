@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+}
+.main_Nav{
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+}
+.banner{
+    background-image: url('../../img/shopping.jpg');
+    width:100vw;
+    height: 92vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 0.9;
+}
+.banner_write{
+    margin-left: 50px;
+}
+
+.banner h4{
+    margin-bottom: 15px;
+}
+.banner h1{
+    color: lightseagreen;
+}
+.banner button{
+    margin-top: 22px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.card_align{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    border:2px solid black;
+    margin:18px;
+   border-radius: 5px;
+    width: 146px;
+    box-shadow: 2px 2px 4px black;
+    transition: 0.8s ease;
+
+}
+.card_img{
+    width:142px;
+    height: 100px;
+    border-radius: 5px;
+}
+.card_content{
+    border-radius: 5px;
+    background: orange;
+    margin: 8px;
+}
+.card h6{
+    font-size: 15px;
+    padding: 4px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(85, 120, 85);
+}
+.home_featureproducts{
+    margin-top: 20px;
+    height:200px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  
+}
+.home_featureproducts .h1{
+    font-size:88px;
+    margin-bottom: 15px;
+    color: green;
+    text-align: center;
+}
+.section1{
+ width: 90% !important;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: auto;
+ 
+}
+
+.banner_box{
+    background-image: url('../../img/images.jpg');
+   
+    min-width: 600px;
+    height: 40vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.banner_box2{
+    background-image: url('../../img/download.jpg');
+    padding-left: 15px;
+    min-width: 600px;
+    height: 40vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 0.9;
+    color: white;
+    border-radius: 5px;
+}
+.banner_boxh{
+    margin-top: 22px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+   }
+.banner_box3{
+    background-image: url('../../img/banner3.jpg');
+    padding-left: 20px;
+    min-width: 380px;
+    border:3px solid black;
+    height: 40vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 1;
+    color: rgb(18, 17, 17);
+    border-radius: 3px;
+    margin-bottom:15px;
+    margin-top:10px
+}
+.banner_box7{
+    background-image: url('../../img/yade.jpg');
+    padding-left: 20px;
+    min-width: 380px;
+    border:3px solid black;
+    height: 40vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 1;
+    color: rgb(18, 17, 17);
+    border-radius: 3px;
+    margin-bottom:15px;
+    margin-top:10px
+}
+.banner_box6{
+    background-image: url('../../img/yo.jpg');
+    padding-left: 20px;
+    min-width: 380px;
+    border:3px solid black;
+    height: 40vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    opacity: 1;
+    color: rgb(18, 17, 17);
+    border-radius: 3px;
+    margin-bottom:15px;
+    margin-top:10px
+}
+.banner button:hover{
+    background: lightseagreen;
+    transform: scale(1.5);
+    box-shadow: 2px 2px 3px rgb(59, 52, 52);
+}
+.banner_boxh:hover{
+    background: lightseagreen;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 3px rgb(59, 52, 52);
+    
+}
+.card:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .banner{
+        background: url('../../img/shopping2.jpg');
+        background-position: right 10% top 0%;
+       background-size: cover;
+    }
+    .card_align{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .Card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .home_featureproducts h4{
+        font-size: medium;
+    }
+    .home_featureproducts .h1{
+        font-size: 56px;
+        margin-bottom: 10px;
+        font-weight: bolder;
+    }
+    .banner_box{
+        margin-bottom: 5px;
+        min-width: 340px;
+      
+    }
+    .banner_box2{
+        margin-bottom: 5px;
+        min-width: 340px; 
+        
+      
+    }
+    .banner_box3{
+        margin-bottom: 5px;
+        min-width: 340px;
+    }
+    .banner_box7{
+        margin-bottom: 5px;
+        min-width: 340px;
+
+    }
+    .banner_box6{
+        margin-bottom: 5px;
+        min-width: 340px;
+
+    }
+    .row img{
+        width: 180pxpx;
+        height: 30px;
+    }
+    .row2 img{
+        width: 180px;
+        height: 60px;
+     }
+     
+}
+@media(max-width:1024px){
+    .section2{
+        width: 100%;
+        
+        flex-direction: column;
+       justify-content: center;
+        margin: auto;
+       }
+       .section2 div{
+        width: 73%;
+        align-self: center;
+       }
+       .banner_box{
+          margin-bottom: 15px;
+       }
+}

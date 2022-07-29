@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.main_Nav{
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+   
+}
+.singleProimg{
+    display: flex;
+    height: 65vh;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 75px;
+    
+    
+}
+.img{
+    margin: 35px;
+}
+.img img{
+    width: 30vw;
+    height: 40vh;
+}
+.singleProDetails{
+    width: 50%;
+    padding-top: 30px;
+}
+.singleProDetails h4{
+padding: 15px 0 20px 0;
+font-size: x-large;
+
+}
+.singleProDetails h2{
+   font-size: 26px; 
+    }
+.singleProDetails select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 15px  ;
+}
+
+.singleProDetails button{
+    background: rgb(34, 83, 35);
+    color: rgb(203, 211, 211);
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+}
+.desc{
+    line-height: 25px;
+    font-weight:400;
+}
+
+.addicon{
+    border:2px solid black;
+    background:green;
+    margin: 15px 0px 15px 15px;
+}
+
+
+@media(max-width:768px){
+   
+  .singleProimg{
+    flex-direction: column;
+    margin-top: 65px;
+    justify-content: left;
+    height:100vh !important;
+    
+ 
+  }
+  .img img{
+    width: 100%;
+    align-content: center;
+  }
+  .img{
+    align-self: left;
+    margin-left: 5px !important;
+    height: 45% !important;
+    width: 80vw !important;
+    
+    margin-bottom: 15px !important;
+  }
+  .singleProDetails{
+    width: 90vw;
+    margin-left: 5px !important;
+    margin: auto;
+   
+    
+    padding-top: 5px !important;
+    height: 50%;
+  }
+
+}
+@media(max-width:1024px){
+    .img{
+   
+    width: 40%;
+    height:50%;
+    margin-top: 15px;
+    
+    
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+    }
+    .singleProimg{
+        height: 45vh;
+    }
+}

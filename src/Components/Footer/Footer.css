@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+.footer{
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.footer__logo{
+ width: 80px;
+ height: 55px;
+}
+.footer__about h3{
+    font-weight: 800;
+    align-self: center;
+
+}
+.footer__about h5{
+
+ padding-left: 8px;
+}
+.footer_aboutContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+   
+    
+}
+.footer_aboutContent h1{
+    font-weight: 800px;
+}
+.footer_About{
+    display: flex;
+    flex-direction: column;
+}
+.footer_MyAccount{
+    display: flex;
+    flex-direction: column;
+}
+.footer_InstallApps{
+    display: flex;
+    flex-direction: column;   
+}
+.footer_InstallApps .img1{
+    width:100px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.footer_playicon{
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_InstallApps .img2{
+    width: 105px;
+    height: 46px; 
+    margin-bottom: 15px;
+}
+ .img3{
+    width: 80px;
+    height: 100px;
+    
+}
+
+@media (max-width:1185px){
+    .footer{
+        width: 98%;
+    }
+    .footer_playicon{
+        display: flex;
+        width: 240px;
+        flex-direction: column;    
+        margin-right: 25px;   
+        
+       
+    }
+    .footer_InstallApps .img1{
+        width: 160px;
+        height: 65px;
+        align-self: flex-start;
+    
+    }
+
+    .footer_InstallApps .img2{
+        width: 165px;
+        height: 65px;
+        align-self: flex-start;
+   
+        
+    }
+    .footer_InstallApps h6{
+        font-size: large;
+    }
+   
+}
+@media(max-width:768px){
+    .footer{
+       width: 98%;
+       justify-content: space-between;
+       margin: auto;
+      
+    }
+    .footer__details{
+        margin-left: 5px;
+    }
+    .footer_aboutContent h3,.footer_aboutContent h5{
+        font-size:smaller;
+        
+    }
+    .footer_aboutContent{
+        margin-right: 8px;
+       
+    }
+  
+  .footer_About h4{
+        font-size: 14px;
+    }
+    .footer_About h2{
+        font-size: 20px;
+        
+    }
+    .footer_About {
+        margin-right: 12px;
+        
+    }
+    .footer_MyAccount{
+        margin-left: 5px;
+    }
+    .footer_MyAccount h4{
+        font-size: 12px;
+     
+    }
+    .footer_MyAccount h2{
+        font-size: 20px;
+        
+    }
+    .footer_InstallApps{
+      
+        width: 180px;
+        margin-top: 0px;
+        height: 298px;
+        margin-bottom: 15px;
+    }
+    .footer_InstallApps h2{
+        font-size: 20px;
+        
+    }
+    .footer_InstallApps h5,.footer_InstallApps h6{
+        font-size: 10px;
+    }
+    .footer_InstallApps .img1,.footer_InstallApps .img2{
+        height: 40px;
+        width: 85px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+   
+}
+@media (max-width:415px){
+
+
+    .footer_MyAccount{
+      
+        margin-right: 5px;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .footer_InstallApps{
+       
+        width:200px;
+        margin-left: 5px;
+        
+    }
+    .footer_InstallApps h5{
+      font-size: 14px;
+    }
+    .footer_InstallApps h6{
+        font-size: 14px;
+    }
+    .footer_InstallApps .img1,.footer_InstallApps .img2{
+        margin-bottom: 5px;
+        width: 175px;
+       
+        height: 55px;
+    }
+}

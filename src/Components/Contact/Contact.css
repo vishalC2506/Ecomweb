@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.main_Nav{
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+}
+.banner_vise{
+    margin-top: 45px;
+    color:rebeccapurple;
+    background-image: url('../../img/lib.jpg');
+    background-size: cover;
+    border: 3px solid black; 
+    height: 300px;
+    background-position: bottom -500px right 5px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;  
+}
+.contact_details{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details{
+    width: 40%;
+}
+.details span,.form-details form span{
+    font-size: 12px;
+}
+.details h2,.form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+.details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.details li{
+    list-style: none;
+    margin: 8px 0 8px 0;
+}
+
+.map{
+    width: 55%;
+    height: 400px;
+}
+.map iframe{
+    width: 100%;
+    height: 400px;
+}
+.form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border:1px solid rgb(205, 201, 201)
+}
+.form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-details form input,.form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgb(236, 230, 230);
+}
+.form-details form button{
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85px;
+    height: 48px;
+    text-align: center;
+    background: rgb(11, 130, 62);
+    font-weight: bold;
+}
+.people_img{
+    height: 65px;
+    width: 65px;
+    border-radius: 28px;
+    margin-right: 15px;
+}
+.people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+.people_p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+.people_span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+@media (max-width:768px){
+    .contact_details{
+     
+        flex-direction: column;
+    }
+    .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .map{
+        width: 100%;
+        
+    }
+    .form-details{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    .form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+}
+    @media(max-width:998px){
+        .form-details form{
+      
+        max-width: 50%;
+    }
+    }

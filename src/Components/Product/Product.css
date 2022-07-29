@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.Product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.product_y{
+
+   height: 380px;
+   width: 300px;
+   margin: 8px;
+   
+    
+}
+
+@media(max-width:768px)
+{
+  .Product{
+    justify-content: center;
+  }
+ 
+}
+@media(max-width:1024px){
+  .Product{
+    justify-content: space-around;
+  }
+}
