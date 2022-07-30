@@ -214,7 +214,7 @@
     overflow: hidden;
     cursor: pointer;
 }
-@media (max-width:768px) {
+@media (max-width:770px) {
     .banner{
         background: url('../../img/shopping2.jpg');
         background-position: right 10% top 0%;
